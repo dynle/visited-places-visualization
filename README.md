@@ -1,4 +1,5 @@
 # Visualize places I've visited so far
+Visualize places in the world I've visited in directed graph. The arrows show travel routes. You can zoom in and out, and dynamically change the shape by moving a node
 
 ## Technologies
 * HTML
