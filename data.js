@@ -1,6 +1,6 @@
 // data
 rep_of_korea=[["Seoul","Incheon","Anyang","Hwaseong","Gapyeong","Chuncheon","Jeongseon","Jecheon","Andong","Busan","Geoje","Tongyeong","Mokpo","Gunsan",
-                "Taean","Junju","Seosan","Jeju","Daeju","Gimpo","Ansan","Dangjin","Nonsan","Geongeup","Gunpo","Uiwang","Yongin","Gwangju"],"#FFFACD"]
+                "Taean","Junju","Seosan","Jeju","Daeju","Gimpo","Ansan","Dangjin","Nonsan","Geongeup","Gunpo","Uiwang","Yongin","Gwangju"],"#00FFFF"]
 japan=[["Sapporo","Tokyo","Kanagawa","Kyoto","Osaka","Hukuoka","Shizuoka","Yamanashi","Saga","Nagasaki","Chiba"],"#7CFC00"]
 china=[["Beijing"],"#CD853F"]
 england=[["London","Oxford"],"#6495ED"]
@@ -11,8 +11,8 @@ germany=[["Munich"],"#808000"]
 czech_rep=[["Praha"],"#BDB76B"]
 austria=[["Wien"],"#FFB6C1"]
 hungary=[["Budapest"],"#DA70D6"]
-italy=[["Firenze","Roma","Napoli","Pompei","Pisa","Venice"],"#F5FFFA"]
-usa=[["San Diego","Hawaii"],"#FFDEAD"]
+italy=[["Firenze","Roma","Napoli","Pompei","Pisa","Venice"],"#FFD700"]
+usa=[["San Diego","Hawaii"],"#3CB371"]
 var countries = [rep_of_korea,japan,china,england,belgium,france,swiss,germany,czech_rep,austria,hungary,italy,usa]
 
 edge = {

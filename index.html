@@ -6,8 +6,17 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-network.min.js"></script>
         <script src="data.js"></script>
         <style type="text/css">
+            #countries {
+                display: flex;
+                flex-direction: row;
+            }
+            #wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             #mynetwork {
-                width: 1200px;
+                width: 100%;
                 height: 600px;
                 border: 1px solid lightgray;
             }
@@ -15,8 +24,24 @@
     </head>
     <body>
         <h1>Places I've visited so far</h1>
-
-        <div id="mynetwork"></div>
+        <div id="countries"> 
+            <h2 style="color:#00FFFF">Republic of Korea &nbsp</h2>
+            <h2 style="color:#7CFC00">Japan &nbsp</h2>
+            <h2 style="color:#CD853F">China &nbsp</h2>
+            <h2 style="color:#6495ED">England &nbsp</h2>
+            <h2 style="color:#87CEFA">Belgium &nbsp</h2>
+            <h2 style="color:#DCDCDC">France &nbsp</h2>
+            <h2 style="color:#FF6347">Swiss &nbsp</h2>
+            <h2 style="color:#808000">Germany &nbsp</h2>
+            <h2 style="color:#BDB76B">Czech Republic &nbsp</h2>
+            <h2 style="color:#FFB6C1">Austria &nbsp</h2>
+            <h2 style="color:#DA70D6">Hungary &nbsp</h2>
+            <h2 style="color:#FFD700">Italy &nbsp</h2>
+            <h2 style="color:#3CB371">US</h2>
+        </div>
+        <div id="wrap">
+            <div id="mynetwork"></div>
+        </div>
     </body>
     <script src="vis.js"></script>
 </html>
