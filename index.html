@@ -9,6 +9,7 @@
             #countries {
                 display: flex;
                 flex-direction: row;
+                justify-content: center;
             }
             #wrap {
                 display: flex;
@@ -17,13 +18,13 @@
             }
             #mynetwork {
                 width: 100%;
-                height: 600px;
+                height: 75vh;
                 border: 1px solid lightgray;
             }
         </style>
     </head>
     <body>
-        <h1>Places I've visited so far</h1>
+        <h1 style="text-align: center;">Places I've visited so far</h1>
         <div id="countries"> 
             <h2 style="color:#00FFFF">Republic of Korea &nbsp</h2>
             <h2 style="color:#7CFC00">Japan &nbsp</h2>
@@ -37,10 +38,12 @@
             <h2 style="color:#FFB6C1">Austria &nbsp</h2>
             <h2 style="color:#DA70D6">Hungary &nbsp</h2>
             <h2 style="color:#FFD700">Italy &nbsp</h2>
-            <h2 style="color:#3CB371">US</h2>
+            <h2 style="color:#D2691E">US</h2>
         </div>
+        <div style="text-align: center;">You can zoom in and out, and dynamically change the shape by moving a node</div>
         <div id="wrap">
-            <div id="mynetwork"></div>
+            <div id="mynetwork">
+            </div>
         </div>
     </body>
     <script src="vis.js"></script>

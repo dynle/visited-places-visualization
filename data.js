@@ -12,7 +12,7 @@ czech_rep=[["Praha"],"#BDB76B"]
 austria=[["Wien"],"#FFB6C1"]
 hungary=[["Budapest"],"#DA70D6"]
 italy=[["Firenze","Roma","Napoli","Pompei","Pisa","Venice"],"#FFD700"]
-usa=[["San Diego","Hawaii"],"#3CB371"]
+usa=[["San Diego","Hawaii"],"#D2691E"]
 var countries = [rep_of_korea,japan,china,england,belgium,france,swiss,germany,czech_rep,austria,hungary,italy,usa]
 
 edge = {
